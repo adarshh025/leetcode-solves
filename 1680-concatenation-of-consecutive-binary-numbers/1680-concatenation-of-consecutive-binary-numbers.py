@@ -8,7 +8,6 @@ class Solution:
             if (i & (i - 1)) == 0:
                 bit_length += 1
             
-           
             ans = ((ans << bit_length) | i) % MOD
             
         return ans
